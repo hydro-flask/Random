@@ -1,1 +1,35 @@
+body {
+  background-color: #FFC3F8
+}
 
+p {
+  font-size: 20px; 
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #9DB9FF;
+}
+
+.navbar a {
+  float:left;
+  display: block;
+  color: #FF5353;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+  
+.navbar a:hover {
+  background-color: #D38CFE; 
+}
+
+.navbar a.active {
+  background-color: #FFC3F8;
+  color: Black;
+}
